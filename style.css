@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+header {
+    background-color: rgb(137, 251, 234);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 12%;
+}
+
+#logo {
+    border: 2px dashed black;
+    flex-grow: 1;
+    background-color: orange;
+}
+
+.list {
+    border: 2px dashed black;
+    flex-grow: 2;
+    background-color: orange;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.btn {
+    border: 2px dashed black;
+    flex-grow: 1;
+    background-color: orange;
+}
