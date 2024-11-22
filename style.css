@@ -19,7 +19,7 @@ nav {
 
 /* LOGO */
 
-#logo {
+.logo-navig {
     border: 2px dashed black;
     flex-grow: 1;
     background-color: orange;
@@ -80,6 +80,11 @@ a {
     background-color: gray;
 }
 
+.black {
+    background-color: rgb(23, 23, 23);
+    border-bottom: 2px solid gray;
+}
+
 /* BOX */
 
 .box-cielo {
@@ -103,4 +108,38 @@ a {
     flex-grow: 1;
 }
 
+.box-pink {
+    background-color: pink;
+    border: 2px dashed black;
+    height: 500px;
+    flex-grow: 2;
+}
+
+.box-acqua {
+    background-color: aqua;
+    border: 2px dashed white;
+    height: 500px;
+    flex-grow: 1;
+}
+
+.box-foot {
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2% 0;
+}
+
 /* FOOTER */
+
+.logo-foot {
+    background-color: rosybrown;
+    border: 2px dashed black;
+}
+
+.btn-foot {
+    background-color: rosybrown;
+    border: 2px dashed black;
+
+}
