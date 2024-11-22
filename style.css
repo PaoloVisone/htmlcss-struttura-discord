@@ -17,11 +17,15 @@ nav {
     padding: 2% 12%;
 }
 
+/* LOGO */
+
 #logo {
     border: 2px dashed black;
     flex-grow: 1;
     background-color: orange;
 }
+
+/* LINK NAVIGATOR */
 
 .list {
     border: 2px dashed black;
@@ -34,8 +38,69 @@ ul li {
     display: inline-block;
 }
 
+/* LINK */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BUTTON LOGIN */
+
 .btn {
     border: 2px dashed black;
     flex-grow: 1;
     background-color: orange;
+    text-align: end;
 }
+
+/* HERO SECTION */
+
+.hero {
+    background-color: palevioletred;
+    border: 2px dashed black;
+    width: 70%;
+    height: 400px;
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 12%;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.gray {
+    background-color: gray;
+}
+
+/* BOX */
+
+.box-cielo {
+    background-color: cadetblue;
+    border: 2px dashed black;
+    height: 400px;
+    flex-grow: 2;
+}
+
+.box-rosa {
+    background-color: rosybrown;
+    border: 2px dashed black;
+    height: 400px;
+    flex-grow: 1;
+}
+
+.box-big-verde {
+    background-color: green;
+    border: 2px dashed black;
+    height: 600px;
+    flex-grow: 1;
+}
+
+/* FOOTER */
